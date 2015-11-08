@@ -3,13 +3,15 @@ body {
   margin: 0px;
   padding: 0px;
 }
-
+ /*header*/
 header {
-  height: 823px;
+  height: 855px;
   /*background-image: url(../images/sunset-resized.jpg);*/
   background: url("../images/sunset-resized.jpg") no-repeat center top;
   opacity: 0.9;
+  z-index: 1;
 }
+
 .logo {
     padding-top: 22px;
     margin-left: 188px;
@@ -78,6 +80,59 @@ header {
   font-size: 17px;
   line-height: 47px;
   color:white;
+  background-color: green;
+}
+/*total statistic*/
+.total{
+  z-index: 2;
+  position: relative;
+  height: 147px;
+  width: 1060px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: -61px;
+  background: white;
+  border:1px solid lightgray;
+  border-left-width: 0px;
+}
+.entity{
+  width:264px;
+  height: 147px;
+  display: inline-block;
+  /*line-height: 130px;*/
+  text-align: center;
+  border-right: 1px solid lightgray;
+    border-left-width: 0px;
+    float: left;
+}
+.number{
+  margin-top: 44px;
+  font-size: 26px;
+  font-weight: bold;
+}
+.name{
+  font-size: 13px;
+}
+p{
+  width: 240px;
+  height: 7px;
+}
+/*HOW IT WORKS*/
+.firstTitle{
+  font-size: 16px;
+  margin-top: 80px;
+  width: 1444px;
+  font-weight: bold;
+  text-align: center;
+}
+.downline{
+  height: 3px;
+  width: 41px;
+  float: none;
+  background-color: lightgray;
+  margin-top: 20px;
+  margin-left: 699px;
 }
 footer {
 
