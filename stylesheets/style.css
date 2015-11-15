@@ -46,46 +46,82 @@ header {
   color: white;
 }
 .relax{
-  padding-top: 299px;
-  margin-left: 406px;
-  font-size: 39px;
-  color: white;
+  margin-left: 50px;
+padding-top: 299px;
+font-size: 39px;
+color: white;
 }
 .receive{
+  margin-left: 31px;
   padding-top: 5px;
-  margin-left: 570px;
   font-size: 18px;
-  color: white
+  color: white;
+}
 }
 #search-form{
   margin-top: 25px;
 }
-.search-frame {
-  padding-top: 10px;
+.searchtextbox {
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    margin: 24px auto;
+    border-radius: 5px;
+    max-width: 640px;
+}
+.searchtextbox .text {
+    margin: 0;
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    font-size: 18px;
+    line-height: 18px;
+    height: 24px;
+    padding: 18px 10px 18px 10px;
+    color: #FFF;
+    width: 90%;
+  }
+  .searchtextbox .button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background: rgba(103, 221, 171, 1);
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    height: 60px;
+    padding: 18px 10px 18px 10px;
+    width: 19%;
+}
+/*.search-frame {
+  margin-top: 30px;
   margin-left: 401px;
   width: 516px;
-  height: 50px;
-  border-radius: 5px;
+  height: 58px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   border: none;
   opacity: 0.5;
   font-size: 18px;
   line-height: 47px;
-  color: white;
-  float: left;
+  /*color: white;*/
+  /*float: left;
 }
 .search-button{
-  padding-top: 10px;
+      margin-right: 409px;
+  margin-top: 30px;
   padding-left: 0;
   width: 121px;
-  height: 61px;
-  border-radius: 5px;
+  height: 61  px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   border: none;
   opacity: 0.5;
   font-size: 17px;
   line-height: 47px;
   color:white;
   background-color: green;
-}
+}*/
 /*total statistic*/
 .total{
   z-index: 2;
@@ -126,7 +162,8 @@ p{
 .firstTitle{
   font-size: 16px;
   margin-top: 80px;
-  width: 1444px;
+  margin-left: 599px;
+  /*width: 1444px;*/
   font-weight: bold;
   text-align: center;
 }
@@ -172,6 +209,7 @@ p{
 }
 /*howItWorkContent*/
 .howItWorkContent{
+  padding-left: 11px;
   height: 300px;
   width: 1050px;
   margin: 0 auto;
@@ -191,7 +229,7 @@ p{
 }
 #longLine{
   width: 100%;
-  margin-top: 41px;
+  margin-top: 40px;
   background-color: lightgray;
   float: left;
 }
@@ -203,24 +241,25 @@ p{
   text-align: center;
 }
 .whyChooseUsContent{
-  width:1150px;
+  width:1273px;
   height: 400px;
   margin: 0 auto;
-  margin-top: 111px;
+  margin-top: 63px;
   text-align: center;
 }
 .whyChooseUsPanel{
   height: 140px;
-  width: 455px;
-  /*margin: 0 auto;*/
+  width: 506px;
+  /* margin: 0 auto; */
   margin-top: 10px;
-  margin-left: 120px;
+  margin-left: 99px;
+  padding-right: 6px;
   text-align: left;
-  float:left;
+  float: left;
 }
 
 .whyChooseUsApart{
-  margin-left: 0px;
+  margin-left: 78px;
   margin-top: -58px;
 }
 .why_text{
@@ -235,9 +274,118 @@ p{
    margin-left:10px;
    margin-top:10px;
  }
+  #second-longLine{
+   width: 100%;
+   margin-top: 114px;
+   background-color: lightgray;
+   float: left;
+ }
 
+ .last{
 
+    /*width: 100%;*/
+    height: 799px;
+    border-bottom: 1px solid #dddddd;
+ }
+ .tab{
+   padding-top: 245px;
+ }
+ .last .border{
+   margin-top: 0px;
+   margin-left: 534px;
+   width: 370px;
+   border: 2px solid gray;
+   border-radius: 3px;
+ }
+ .last .tab button:nth-child(1){
+   cursor: pointer;
+   background: gray;
+   border: none;
+   width: 183px;
+   height: 62px;
+   color: #ffffff;
+ }
+ .last .tab button:nth-child(2){
+   cursor: pointer;
+   background: #f4f3f1;
+   border: none;
+   width: 182px;
+   height: 62px;
+   font-size: 16px;
+   color: #80808f;
+ }
+ .last p:nth-child(2) {
+    text-align: center;
+    margin-top: 29px;
+    padding-left: 700px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #d6d6d6;
+  }
+  .last p:nth-child(3) {
+    text-align: center;
+    margin: 0px auto;
+    max-width: 1060px;
+    font-size: 19px;
+    line-height: 25px;
+    color: #80808f;
+    width:1060px;
+  }
+  .last .images {
+    text-align: center;
+  }
+  .last .images img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 162px 27px;
+      -webkit-filter: grayscale(1) opacity(0.4);
+  }
 
-footer {
+  footer .footer-top {
+      overflow: hidden;
+      background: url("../images/sunset-resized.jpg");
+      background-size: cover;
+      background-position: 0px;
+      width: 100%;
+      min-height: 100%;
+      padding: 110px 0px;
+      text-align: center;
+      opacity: 0.9;
+  }
+  footer .footer-top span {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 27px;
+    margin: 0px 7px;
+    line-height: 53px;
+    color: #ffffff;
+}
+footer .footer-top .searchtextbox {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+    width: 640px;
+}
+/*text and button had been writen before*/
+
+}
+
+.footer-bottom{
+  height:70px;
+}
+#firstButton {
+    margin-left: 180px;
+}
+.footer-bottom input {
+    background: transparent;
+    border: 0px;
+    color: gray;
+    margin-top: 25px;
+    margin-left: 2px;
+    font-size: 15px;
+}
+.footer-bottom {
+  text-align: left;
 
 }
